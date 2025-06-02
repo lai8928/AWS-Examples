@@ -1,13 +1,6 @@
 {
-  "name": "My Project Dev",
+  "name": "My Dev Container",
   "image": "mcr.microsoft.com/devcontainers/python:3.11",
-  "postCreateCommand": "./.devcontainer/setup.sh",
-  "forwardPorts": [8000],
-  "customizations": {
-    "vscode": {
-      "extensions": [
-        "ms-python.python"
-      ]
-    }
-  }
+  "postCreateCommand": "./.devcontainer/setup.sh"
 }
+
