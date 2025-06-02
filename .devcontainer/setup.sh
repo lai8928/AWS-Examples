@@ -7,5 +7,6 @@ sudo ./aws/install
 sudo rm awscliv2.zip
 sudo rm aws -r 
 cd $CODESPACE_VSCODE_FOLDER
+export AWS_CLI_AUTO_PROMPT=on-partial
 
 echo "✅ finish install awscli"
